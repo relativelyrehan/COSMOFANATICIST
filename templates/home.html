@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style type="text/css">
+	img, iframe {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 450px;
+  height: 300px
+}
+</style>
+
+
+<h1><font face="Times New Roman"><a href="#">Industry and climate change</a></font></h1>
+
+<img src="{{url_for('static', filename='industry.jpg')}}" width="75%" height="50%" alt="NASA/JPL-Caltech" /><p><strong>Credit:</strong> NASA/JPL-Caltech</p>
+
+<p>Industrialization has always seemed to be the key to wealth and better living but in reality, it has been shown that, although it leads to better conditions of living in certain respects, it affects environment and ultimately contributes to climate change. Industrialization not only involves technological innovations, it also involves economic and social transformation of the human society. With industrialization come opportunities as well as challenges. The challenges include coping with higher temperatures, extreme weather conditions, changing human life styles and changing philosophies. Due to these challenges, industrialization must take into account climate change and its consequences. For example, changing human life styles and philosophies have major impacts on environment and this has to be considered. This study examines the links between industrialization and climate change and attempts to address some arguments, which always come up when the effects of human activities on climate change is discussed. </p>
+
+<small><p>Chigbo A. Mgbemene, Chidozie C. Nnaji and Chekwubechukwu Nwozor, 2016. Industrialization and its Backlash: Focus on Climate Change and its Consequences. Journal of Environmental Science and Technology, 9: 301-316.</p></small>
+
+
+<h1><font face="Times New Roman"><a href="{{ url_for('worry') }}">Our findings?</a></font></h1>
+<img src="{{url_for('static', filename='find.jpg')}}" width="75%" height="50%" alt="NASA/JPL-Caltech" /><p><strong>Credit:</strong> whyy.org</p>
+<p>“The earth is loosing its balance”
+
+1. The large trend
+Focusing on any short-term global temperature trend can be misleading. Here’s why it’s important to look at the big picture<a href="{{ url_for('worry') }}">...</a></p>
+
+
+
+
+
+
+<h1><font face="Times New Roman"><a href="{{ url_for('worry') }}">Effects on Us!</a></font></h1>
+
+<p>Most of the people thought that even if climate is changing what effects is it gonna make on our lives. This is the question which comes to minds of many people. So here are a few things on which we want to shed some light on.</p>
+
+<h3>Health</h3>
+<p>When we keep on burning fossil fuels and the emmission of green house gases icrease in our atmosphere, then it would lead to mant respiratory diseases among all the age groups, especially childrens. They are at most risk due to these pollutants in their sky. We are seeing a rapid growth in heart related diseases in adults and childrens. If we don't take serious steps now, we might end up with children born with these diseases. Imagine how horrible will it be.</p>
+
+<h3>Residence</h3>
+<p>If you are living in coastal areas then climate change a more imminent danger for you as you are at most risk. The reason is that, due to increase in earth's temprature, glaciers are melting and causing a rise in sea water level. This leads to sinking of many coastal areas around the globe.</p>
+
+<iframe width="768" height="432" src="https://www.youtube.com/embed/YLYqNU21FPo?list=PLO0ZfOiXWrut-mZU6RHzbA10Yxud2gCZy" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock content%}

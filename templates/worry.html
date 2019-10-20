@@ -1,0 +1,33 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+<style type="text/css">
+	img, iframe {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 450px;
+  height: 300px
+}
+</style>
+
+	<h1>“The earth is loosing its balance”</h1><br>
+
+	
+	<ol><h3>1. The large trend<h3></ol>
+
+	<p>Focusing on any short-term global temperature trend can be misleading. Here’s why it’s important to look at the big picture:</p>
+
+	<img src="{{url_for('static', filename='earth.gif')}}" width="50%" height="50%" alt="NASA/JPL-Caltech" /><p><strong>Credit:</strong> NASA/JPL-Caltech</p>
+
+	<p>The amount of solar energy received by the Earth has followed the Sun’s natural 11-year cycle of small ups and downs with no net increase since the 1950s. Over the same period, global temperature has risen markedly.</p>
+	<img src="{{url_for('static', filename='Solar_Irradiance_graph.jpg')}}" width="50%" height="50%" alt="NASA/JPL-Caltech" /><p><strong>Credit:</strong> NASA/JPL-Caltech</p>
+
+	<ol><h3>2. Graphic: Earth's temperature record<h3></ol>
+	<img src="{{url_for('static', filename='temperature record.jpg')}}" width="50%" height="50%" alt="NASA/JPL-Caltech" /><p><strong>Credit:</strong> NASA Climate 365 projec</p>
+
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/gXXOkhoki8s?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	{% endblock content %}
